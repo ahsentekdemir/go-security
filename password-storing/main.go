@@ -10,7 +10,7 @@ import (
 
 const saltSize = 32
 func main(){
-	ct : context.Background()
+	ct := context.Background()
 	email := []byte("user@userdomain.com")
 	password := []byte("userpassword")
 
